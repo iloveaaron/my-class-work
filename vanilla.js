@@ -1,5 +1,6 @@
 // This is a comment
 
+
 // think of a 'class' as a template
 class Post {
 
@@ -38,18 +39,18 @@ const app = new Vue({
 			// constructed Post item
 			new Post(
 				'Aaron Chotzen-Jenner: MaxPreps', 		// this is the TITLE place in the class
-				'https://google.com',	// this is the LINK place in the class
+				'http://www.maxpreps.com/athlete/aaron-chotzen-jenner/HyFemvP5EeaT-Oz0u-e-FA/gendersport/soccer-stats.htm',	// this is the LINK place in the class
 				'Aaron Chotzen-Jenner',			// this is the AUTHOR place in the class
 				'https://unsplash.it/200',	// this is the IMAGE place in the class
-				'Lorem ipsum dolor sit amet, consectetur.' // this is the BODY place in the class
+				'This showcases the Aaron Soccer Experience.' // this is the BODY place in the class
 				),
 
 			new Post(
 				'Aaron Chotzen-Jenner: Vine',
-				'https://vuejs.org',
+				'https://vine.co/v/heFUw7wgLHt',
 				'Aaron Chotzen-Jenner',
-				'img-200.jpg', // this is a local image in the same folder as the js script
-				'This has a local image. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra euismod euismod. Nulla leo est, venenatis at fringilla eget, tincidunt sed justo. In efficitur dui odio, sit amet finibus sem hendrerit ut. Etiam vestibulum sem vel metus lobortis, vitae dictum metus sagittis. Nulla facilisi. '
+				'Screen Shot 2017-05-05 at 11.52.44 AM', // this is a local image in the same folder as the js script
+				'This introduces the Aaron Vine. '
 				),
 
 			new Post(
