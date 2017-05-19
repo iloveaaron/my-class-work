@@ -49,32 +49,16 @@ const app = new Vue({
 				'Aaron Chotzen-Jenner: Vine',
 				'https://vine.co/v/heFUw7wgLHt',
 				'Aaron Chotzen-Jenner',
-				'Screen Shot 2017-05-05 at 11.52.44 AM', // this is a local image in the same folder as the js script
+				'Screen Shot 2017-05-05 at 11.52.44 AM.png', // this is a local image in the same folder as the js script
 				'This introduces the Aaron Vine. '
 				),
 
-			new Post(
-				'This Post: Crazy Fredrick',
+			new Post (
+				'Search Up Aaron',
 				'https://google.com',
-				'Bob Author',
-				'https://unsplash.it/200',
-				'Crazy Fredrick bought many very exquisite opal jewels.'
-				),
-
-			new Post(
-				'Another Post: promptly judged',
-				'https://vuejs.org',
-				'Jane Author',
-				'https://unsplash.it/200',
-				'We promptly judged antique ivory buckles for the next prize.'
-				),
-
-			new Post(
-				'Last Post: Jaded zombies',
-				'https://google.com',
-				'Anptoght Author',
-				'#',
-				'Jaded zombies acted quaintly but kept driving their oxen forward.'
+				'Yvonne',
+				'https://www.fresnostate.edu/csm/ees/images/earth.jpg',
+				'Find my boy, Aaron. He needs to go to prom with London.'
 				)
 		]
 	},
